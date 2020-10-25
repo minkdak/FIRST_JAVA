@@ -1,0 +1,10 @@
+package hiding;
+
+public class MyDate {
+
+	// 패키지가 다르면 public 선언 해야함.
+	int day;
+	int year;
+	int month;
+
+}

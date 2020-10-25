@@ -1,0 +1,13 @@
+package Chapter5.Coffee;
+
+public class CoffeTest {
+	
+	public static void main(String[] args) {
+		Person kim= new Person("Kim", 10000);
+		
+		StarCoffee starCoffee = new StarCoffee();
+		
+		kim.buyStarCoffe(starCoffee, Menu.STARAMERICANO);	
+	}
+	
+}

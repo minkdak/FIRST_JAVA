@@ -1,0 +1,8 @@
+package staticex;
+
+public class Company {
+	
+	private Company() {}
+	
+	
+}

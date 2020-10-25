@@ -1,0 +1,11 @@
+package staticex;
+
+public class Company {
+	
+	private static Company instance = new Company();
+	
+	// 외부에서 사용할 수 없음
+	private Company() {}
+	
+	
+}

@@ -1,0 +1,14 @@
+package Chapter5.Card;
+
+public class Card {
+	private int cardNumber; 
+	private static int cardNum = 10000;
+	
+	public Card(int Num) {
+		this.cardNumber = Num;
+	}
+	
+	public int getCardNumber() {
+		return this.cardNumber;
+	}
+}

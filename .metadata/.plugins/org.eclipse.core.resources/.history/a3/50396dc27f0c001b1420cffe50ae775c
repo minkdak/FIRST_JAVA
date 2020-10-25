@@ -1,0 +1,34 @@
+package reference;
+
+public class StudentRef {
+	String studentName;
+	int studentAge;
+	SubjectRef koreaSubject;
+	SubjectRef mathSubject;
+	
+	
+	public StudentRef(String name, int age) {
+		studentName = name;
+		studentAge = age;
+		
+		koreaSubject = new SubjectRef();
+		mathSubject = new SubjectRef();
+	}
+	
+	public void setKoreaSubject(String name, int score) {
+		koreaSubject.subjectScore = score;
+		koreaSubject.subjectName = name;
+	
+	}
+	
+	public void setKoreaSubject(String name, int score) {
+		mathSubject.subjectScore = score;
+		mathSubject.subjectName = name;
+	
+	}
+	
+	
+	
+	
+	
+}

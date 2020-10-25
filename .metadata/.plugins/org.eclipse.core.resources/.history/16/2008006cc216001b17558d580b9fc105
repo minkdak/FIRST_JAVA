@@ -1,0 +1,20 @@
+package Chapter5.Card;
+
+public class CardCompany {
+	private static CardCompany instance = new CardCompany();
+	private static int cardNum = 10000;
+	
+	private CardCompany() {}
+	
+	public static CardCompany getInstance() {
+		if (instance == null) {
+			instance = new CardCompany();
+		}
+		return instance;
+	}
+	
+	public Card creatCard() {
+		
+		return 
+	}
+}

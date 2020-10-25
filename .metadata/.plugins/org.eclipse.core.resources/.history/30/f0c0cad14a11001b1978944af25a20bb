@@ -1,0 +1,11 @@
+package practice;
+
+public class MyDateTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyDate mydate1 = new MyDate(10,2,2000);
+		MydaMyDatete mydate2 = new MyDate(2,10,2006);
+	}
+
+}

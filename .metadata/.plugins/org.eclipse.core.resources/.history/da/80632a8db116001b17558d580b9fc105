@@ -1,0 +1,9 @@
+package Chapter5;
+
+public class Menu {
+	public static final int STARAMERICANO = 4000;
+	public static final int STARLATTE= 4500;
+	
+	public static final int BEANMERICANO = 4000;
+	public static final int BEANLATTE = 4500;
+}

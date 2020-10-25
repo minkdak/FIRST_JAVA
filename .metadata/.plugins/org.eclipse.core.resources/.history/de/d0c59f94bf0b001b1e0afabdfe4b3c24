@@ -1,0 +1,12 @@
+package reference;
+
+public class SubjectRef {
+	String subjectName;
+	int subjectScore;
+	
+	public SubjectRef(String name) {
+		subjectName =  name;
+	}
+	
+	
+}

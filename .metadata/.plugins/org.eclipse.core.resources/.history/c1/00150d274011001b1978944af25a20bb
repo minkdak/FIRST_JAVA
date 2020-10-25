@@ -1,0 +1,16 @@
+package cooperation;
+
+public class Taxi {
+	String localName;
+	int passengerCount;
+	int money;
+	
+	public Taxi(String localName) {
+		this.localName = localName;
+	}
+	
+	public void take(int money) {
+		this.money += money;
+	}
+	
+}

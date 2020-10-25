@@ -1,0 +1,16 @@
+package reference;
+
+public class StudentRef {
+	String studentName;
+	int studentAge;
+	
+	public Student(name, age) {
+		studentName = name;
+		studentAge = age; 
+	}
+	
+	SubjectRef korea;
+	SubjectRef english;
+	
+	
+}

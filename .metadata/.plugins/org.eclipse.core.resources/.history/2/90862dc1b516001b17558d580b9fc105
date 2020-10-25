@@ -1,0 +1,8 @@
+package Chapter5.Coffee;
+
+public class BeanCoffee {
+	private String name = "Äá ´Ù¹æ";
+	private int money;
+	
+	
+}

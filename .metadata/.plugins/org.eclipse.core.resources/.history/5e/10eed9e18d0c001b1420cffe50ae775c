@@ -1,0 +1,14 @@
+package hiding;
+
+public class MyDate {
+
+	// 패키지가 다르면 public 선언 해야함.
+	private int day;
+	private int year;
+	private int month;
+	
+	public void showDate() {
+		System.out.println( year + "년 " + month + "월 " + day + "일");
+	}
+
+}

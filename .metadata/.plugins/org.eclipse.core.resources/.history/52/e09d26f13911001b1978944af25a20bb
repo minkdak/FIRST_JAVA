@@ -1,0 +1,22 @@
+package thisex;
+// this 예제
+public class Person {
+	String name;
+	int age;
+	
+	// 생성자: 인스턴스 생성시 인스턴스 초기화
+	public Person() {
+		// this.name = "이름없음"
+		// 대신에 아래와 같이 사용.
+		this("이름없음", 1);
+	}
+	
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public void showInfo() {
+		System.out.println(name + "," + age);
+	}
+}

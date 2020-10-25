@@ -1,0 +1,35 @@
+package Chapter5.Coffee;
+
+public class Person {
+	String name;
+	int money;
+	String menuName;
+	
+	public Person(String name, int money) {
+		this.name = name;
+		this.money = money;
+	}
+	public void buyStarCoffee(StarCoffee cafe, int coffe) {
+		cafe.buy(staramericano);
+		if(coffe == 4000) {
+			setName("아메리카노");
+		} else if(coffee == 4500) {
+			setName("카페라떼");
+		}
+		
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	
+	
+}

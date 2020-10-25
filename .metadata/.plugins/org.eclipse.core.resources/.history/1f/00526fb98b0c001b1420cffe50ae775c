@@ -1,0 +1,11 @@
+package hiding;
+
+public class MyDateTest {
+	public static void main(String[] args) {
+		MyDate date4 = new MyDate();
+		
+		date.day = 10;
+		date.month = 7;
+		date.day = 2019;
+	}
+}

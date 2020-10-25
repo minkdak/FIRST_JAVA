@@ -1,0 +1,6 @@
+package Chapter5.Card;
+
+public class CardCompany {
+	private static CardCompany instance = new CardCompany(); 
+	private CardCompany() {}
+}

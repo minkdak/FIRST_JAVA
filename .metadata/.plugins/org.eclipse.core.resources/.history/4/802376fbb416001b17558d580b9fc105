@@ -1,0 +1,23 @@
+package Chapter5.Coffee;
+
+public class StarCoffee {
+	private String name = "º° ´Ù¹æ";
+	private int money;
+	
+	public void buy(int money) {
+		setMoney(money);
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money += money;
+	}
+	
+}

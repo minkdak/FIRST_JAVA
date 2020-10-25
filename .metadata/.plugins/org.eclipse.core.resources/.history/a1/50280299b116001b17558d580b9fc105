@@ -1,0 +1,8 @@
+package Chapter5.Coffe;
+
+public class StarCoffee {
+	String name;
+	int money;
+	
+	
+}

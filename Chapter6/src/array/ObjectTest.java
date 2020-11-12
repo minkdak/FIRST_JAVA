@@ -6,11 +6,11 @@ public class ObjectTest {
 		Book[] library = new Book[5];
 		Book[] copyLibrary = new Book[5];
 		
-		library[0] = new Book("еб╧И╩Й╦ф1", "а╤а╓╥║");
-		library[1] = new Book("еб╧И╩Й╦ф2", "а╤а╓╥║");
-		library[2] = new Book("еб╧И╩Й╦ф3", "а╤а╓╥║");
-		library[3] = new Book("еб╧И╩Й╦ф4", "а╤а╓╥║");
-		library[4] = new Book("еб╧И╩Й╦ф5", "а╤а╓╥║");
+		library[0] = new Book("М┐°К╟╠Л┌╟К╖╔1", "Л║╟Л═∙К·≤");
+		library[1] = new Book("М┐°К╟╠Л┌╟К╖╔2", "Л║╟Л═∙К·≤");
+		library[2] = new Book("М┐°К╟╠Л┌╟К╖╔3", "Л║╟Л═∙К·≤");
+		library[3] = new Book("М┐°К╟╠Л┌╟К╖╔4", "Л║╟Л═∙К·≤");
+		library[4] = new Book("М┐°К╟╠Л┌╟К╖╔5", "Л║╟Л═∙К·≤");
 		
 		System.arraycopy(library, 0, copyLibrary, 0, 5);
 		
@@ -18,8 +18,8 @@ public class ObjectTest {
 //			book.showBookInfo();
 //		}
 		
-		library[0].setTitle("Ё╙╦Я");
-		library[0].setAuthor("╧з©о╪╜");
+		library[0].setTitle("К┌≤К╙╘");
+		library[0].setAuthor("К╟∙Л≥└Л└°");
 		
 		for(Book book: library) {
 			book.showBookInfo();
@@ -27,7 +27,7 @@ public class ObjectTest {
 		
 		
 		System.out.println("=================");
-		// ╬Хю╨╨╧╩Г.
+		// Л√∙Л²─КЁ╣Л┌╛.
 		for(Book book: copyLibrary) {
 			book.showBookInfo();
 		}

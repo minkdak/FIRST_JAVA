@@ -4,38 +4,38 @@ import java.util.ArrayList;
 
 class Animal {
 	public void move() {
-		System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤.");
 	}
 }
 
 class Human extends Animal {
 	public void move() {
-		System.out.println("»ç¶÷ÀÌ µÎ¹ß·Î °È½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ë‘ë°œë¡œ ê±·ìŠµë‹ˆë‹¤.");
 	}
 
-	// ÀçÁ¤ÀÇ µÇÁö ¾ÊÀº ¸Ş¼­µå´Â »óÀ§ Å¬·¡½º Å¸ÀÔÀ¸·Î ¼±¾ğµÈ ÀÎ½ºÅÏ½º¿¡¼­ È£ÃâÇÒ ¼ö ¾ø´Ù.
+	// ì¬ì •ì˜ ë˜ì§€ ì•Šì€ ë©”ì„œë“œëŠ” ìƒìœ„ í´ë˜ìŠ¤ íƒ€ì…ìœ¼ë¡œ ì„ ì–¸ëœ ì¸ìŠ¤í„´ìŠ¤ì—ì„œ í˜¸ì¶œí•  ìˆ˜ ì—†ë‹¤.
 	public void readBook() {
-		System.out.println("»ç¶÷ÀÌ Ã¥À» ÀĞ½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì±…ì„ ì½ìŠµë‹ˆë‹¤.");
 	}
 }
 
 class Tiger extends Animal {
 	public void move() {
-		System.out.println("È£¶ûÀÌ°¡ ³× ¹ß·Î ¶İ´Ï´Ù.");
+		System.out.println("í˜¸ë‘ì´ê°€ ë„¤ ë°œë¡œ ëœë‹ˆë‹¤.");
 	}
 	
 	public void hunting() {
-		System.out.println("È£¶ûÀÌ°¡ »ç³ÉÀ» ÇÕ´Ï´Ù.");
+		System.out.println("í˜¸ë‘ì´ê°€ ì‚¬ëƒ¥ì„ í•©ë‹ˆë‹¤.");
 	}
 }
 
 class Eagle extends Animal {
 	public void move() {
-		System.out.println("µ¶¼ö¸®°¡ ÇÏ´ÃÀ» ³¯¾Æ°©´Ï´Ù.");
+		System.out.println("ë…ìˆ˜ë¦¬ê°€ í•˜ëŠ˜ì„ ë‚ ì•„ê°‘ë‹ˆë‹¤.");
 	}
 	
 	public void flying() {
-		System.out.println("µ¶¼ö¸®°¡ ³¯°³¸¦ Âß Æì°í ¸Ö¸® ³¯¾Æ°©´Ï´Ù");
+		System.out.println("ë…ìˆ˜ë¦¬ê°€ ë‚ ê°œë¥¼ ì­‰ í´ê³  ë©€ë¦¬ ë‚ ì•„ê°‘ë‹ˆë‹¤");
 	}
 }
 
@@ -47,30 +47,30 @@ public class AnimalTest {
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
 		
-		// 1_1. ÀÌ·¸°Ô ÀÏÀÏÀÌ È£Ãâ ÇÏÁö ¾Ê°í
+		// 1_1. ì´ë ‡ê²Œ ì¼ì¼ì´ í˜¸ì¶œ í•˜ì§€ ì•Šê³ 
 //		AnimalTest test = new AnimalTest();
 //		test.moveAnimal(hAnimal);
 //		test.moveAnimal(tAnimal);
 //		test.moveAnimal(eAnimal);
 		
-		// 1_2. »óÀ§ Å¬·¡½º Å¸ÀÔÀ¸·Î ¼±¾ğÈÄ
+		// 1_2. ìƒìœ„ í´ë˜ìŠ¤ íƒ€ì…ìœ¼ë¡œ ì„ ì–¸í›„
 		ArrayList<Animal> animalList = new ArrayList<Animal>();
 		animalList.add(hAnimal);
 		animalList.add(tAnimal);
 		animalList.add(eAnimal);
 		
-		// »ó¼Ó, ¾÷Ä³½ºÆÃ, ´ÙÇü¼º
-		// 1_3. ¿À¹ö¶óÀÌµù µÈ ¸Ş¼­µå¸¦ È£ÃâÇÒ ¼ö ÀÖ´Ù. 
+		// ìƒì†, ì—…ìºìŠ¤íŒ…, ë‹¤í˜•ì„±
+		// 1_3. ì˜¤ë²„ë¼ì´ë”© ëœ ë©”ì„œë“œë¥¼ í˜¸ì¶œí•  ìˆ˜ ìˆë‹¤. 
 		for( Animal animal : animalList) {
 			animal.move();
 		} 
 		
-		// 2_1.°¢°¢ÀÇ Å¬·¡½º¿¡ »ı¼º µÇ¾î ÀÖ´Â ¸Ş¼­µåµéÀ» »ç¿ëÇÏ·Á¸é ´Ù¿îÄ³½ºÆÃ
+		// 2_1.ê°ê°ì˜ í´ë˜ìŠ¤ì— ìƒì„± ë˜ì–´ ìˆëŠ” ë©”ì„œë“œë“¤ì„ ì‚¬ìš©í•˜ë ¤ë©´ ë‹¤ìš´ìºìŠ¤íŒ…
 		System.out.println("=============================");
 //		Human human = (Human)hAnimal;
 //		human.readBook();
 		
-		// Å¸ÀÔ°ú ¸í½ÃÀû Çüº¯È¯¸¸ ºñ±³ÇØ¼­ ÄÄÆÄÀÏ¿¡·¯°¡ ¾È³² -> ¿¡·¯¹ß»ı
+		// íƒ€ì…ê³¼ ëª…ì‹œì  í˜•ë³€í™˜ë§Œ ë¹„êµí•´ì„œ ì»´íŒŒì¼ì—ëŸ¬ê°€ ì•ˆë‚¨ -> ì—ëŸ¬ë°œìƒ
 		// Eagle human1 = (Eagle)hAnimal;
 //		if(hAnimal instanceof Human) {
 //			Human human = (Human)hAnimal;
@@ -102,7 +102,7 @@ public class AnimalTest {
 		
 	}
 
-	// ÇÏ³ªÀÇ ¸Ş¼­µå·Î 3°³ÀÇ ¸Ş¼­µå¸¦ ¸¸µç È¿°ú¸¦ º¼¼ö ÀÖ´Ù.
+	// í•˜ë‚˜ì˜ ë©”ì„œë“œë¡œ 3ê°œì˜ ë©”ì„œë“œë¥¼ ë§Œë“  íš¨ê³¼ë¥¼ ë³¼ìˆ˜ ìˆë‹¤.
 	public void moveAnimal(Animal animal ) {
 		animal.move();
 	}

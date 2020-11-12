@@ -1,20 +1,20 @@
 package classpart;
 
 public class Student {
-	// private ¿ÜºÎ¿¡¼­ ¶÷Á¶ ÀÚÃ¼°¡ ¾ÈµÊ.
-	// Å¬·¡½º ³»ºÎ¿¡¼­¸¸ ÂüÁ¶ °¡´É
+	// private ì™¸ë¶€ì—ì„œ ëŒì¡° ìì²´ê°€ ì•ˆë¨.
+	// í´ë˜ìŠ¤ ë‚´ë¶€ì—ì„œë§Œ ì°¸ì¡° ê°€ëŠ¥
 	public int studentID;
 	public String studentName;
 	public String address;
 	
-	// µğÆúÆ® »ı¼ºÀÚ
+	// ë””í´íŠ¸ ìƒì„±ì
 	public Student() {}
 	
-	// »ı¼ºÀÚ ¿©·¯°³ °¡´É => »ı¼ºÀÚ ¿À¹ö·Îµù
+	// ìƒì„±ì ì—¬ëŸ¬ê°œ ê°€ëŠ¥ => ìƒì„±ì ì˜¤ë²„ë¡œë”©
 	public Student(int id, String name) {
 		studentID = id;
 		studentName = name;
-		address = "ÁÖ¼Ò¾øÀ½";
+		address = "ì£¼ì†Œì—†ìŒ";
 	}
 	
 	public void showStudentInfo() {
@@ -25,6 +25,6 @@ public class Student {
 		return studentName;
 	}
 	
-	// Å¬·¡½ºÀÇ main ÇÔ¼ö´Â ¸Ş¼­µå·Î º¸Áö ¾Ê´Â´Ù.
-	// ±×Àú ¼Ò½º¸¦ ±¸µ¿ÇÏ±â À§ÇÑ ÇÔ¼ö.
+	// í´ë˜ìŠ¤ì˜ main í•¨ìˆ˜ëŠ” ë©”ì„œë“œë¡œ ë³´ì§€ ì•ŠëŠ”ë‹¤.
+	// ê·¸ì € ì†ŒìŠ¤ë¥¼ êµ¬ë™í•˜ê¸° ìœ„í•œ í•¨ìˆ˜.
 }

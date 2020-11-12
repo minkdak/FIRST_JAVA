@@ -4,7 +4,7 @@ public class CustomerTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		ÀÌ·¸°Ô º¹ÀâÇÏ°Ô ±¸ÇöÇÒ ÄÚµå¸¦
+//		ì´ë ‡ê²Œ ë³µì¡í•˜ê²Œ êµ¬í˜„í•  ì½”ë“œë¥¼
 //		if(grade == GOLD) {
 //			
 //		} else if(grade = SILVER) {

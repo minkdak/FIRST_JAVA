@@ -15,7 +15,7 @@ public class Taxi {
 	}
 	
 	public void showInfo() {
-		System.out.println(taxiLocalName + "Áö¿ª ÅÃ½ÃÀÇ ½Â°´Àº " + passengerCount + "¸í ÀÌ°í, ¼öÀÔÀº " + money +"ÀÔ´Ï´Ù.");
+		System.out.println(taxiLocalName + "ì§€ì—­ íƒì‹œì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª… ì´ê³ , ìˆ˜ì…ì€ " + money +"ì…ë‹ˆë‹¤.");
 	}
 	
 }

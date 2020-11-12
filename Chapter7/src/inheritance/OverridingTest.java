@@ -4,25 +4,25 @@ public class OverridingTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Customer customerLee = new Customer(10010, "ÀÌ¼ø½Å"); 
+		Customer customerLee = new Customer(10010, "ì´ìˆœì‹ "); 
 		customerLee.bonusPoint = 1000;
 		
-		VIPCustomer customerKim = new VIPCustomer(10020, "±èÀ¯½Å");
+		VIPCustomer customerKim = new VIPCustomer(10020, "ê¹€ìœ ì‹ ");
 		customerKim.bonusPoint = 10000;
 		
 		
 		int priceLee = customerLee.calcPrice(10000);
 		int priceKim = customerKim.calcPrice(10000);
-		System.out.println(customerLee.showCustomerInfo() + "ÁöºÒ ±İ¾×Àº " + priceLee + " ¿øÀÔ´Ï´Ù");
-		System.out.println(customerKim.showCustomerInfo() + "ÁöºÒ ±İ¾×Àº " + priceKim + " ¿øÀÔ´Ï´Ù");
+		System.out.println(customerLee.showCustomerInfo() + "ì§€ë¶ˆ ê¸ˆì•¡ì€ " + priceLee + " ì›ì…ë‹ˆë‹¤");
+		System.out.println(customerKim.showCustomerInfo() + "ì§€ë¶ˆ ê¸ˆì•¡ì€ " + priceKim + " ì›ì…ë‹ˆë‹¤");
 		
-		Customer customerNo = new VIPCustomer(10030, "³ª¸ô¶ó");
+		Customer customerNo = new VIPCustomer(10030, "ë‚˜ëª°ë¼");
 		customerNo.bonusPoint = 10000;
-		System.out.println(customerNo.showCustomerInfo() + "ÁöºÒ ±İ¾×Àº " + customerKim.calcPrice(10000) + " ¿øÀÔ´Ï´Ù");
-		// customerNo.calcPrice(price) º¸ÀÌ´Â°Ç customer Å¬·¡½ºÀÇ ¸Ş¼­µå·Î º¸ÀÌ´Âµ¥ ½ÇÁ¦·Î´Â vipcustomerÀÇ ¸Ş¼­µå
-		// ÀÌ°ÍÀ» °¡»ó ¸Ş¼­µå¶ó°íÇÑ´Ù.
-		// °¡»ó¸Ş¼­µå´Â ¼±¾ğµÈ Å¸ÀÔ ±âÁØÀÌ ¾Æ´Ï¶ó, »ı¼ºµÈ ÀÎ½ºÅÏ½º ±âÁØ.
-		// ÀÎ½ºÅÏ½º¿¡ ÀçÁ¤ÀÇµÈ °æ¿ì ÀçÁ¤ÀÌµÈ ¸Ş¼­µå È£ÃâµÊ.
+		System.out.println(customerNo.showCustomerInfo() + "ì§€ë¶ˆ ê¸ˆì•¡ì€ " + customerKim.calcPrice(10000) + " ì›ì…ë‹ˆë‹¤");
+		// customerNo.calcPrice(price) ë³´ì´ëŠ”ê±´ customer í´ë˜ìŠ¤ì˜ ë©”ì„œë“œë¡œ ë³´ì´ëŠ”ë° ì‹¤ì œë¡œëŠ” vipcustomerì˜ ë©”ì„œë“œ
+		// ì´ê²ƒì„ ê°€ìƒ ë©”ì„œë“œë¼ê³ í•œë‹¤.
+		// ê°€ìƒë©”ì„œë“œëŠ” ì„ ì–¸ëœ íƒ€ì… ê¸°ì¤€ì´ ì•„ë‹ˆë¼, ìƒì„±ëœ ì¸ìŠ¤í„´ìŠ¤ ê¸°ì¤€.
+		// ì¸ìŠ¤í„´ìŠ¤ì— ì¬ì •ì˜ëœ ê²½ìš° ì¬ì •ì´ëœ ë©”ì„œë“œ í˜¸ì¶œë¨.
 	}
 
 }

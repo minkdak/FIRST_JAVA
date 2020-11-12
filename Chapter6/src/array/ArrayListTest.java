@@ -6,8 +6,8 @@ public class ArrayListTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// ³ë¶õÁÙ ³ª¿À´Â ÀÌÀ¯ - <> Á¦³Ê¸¯
-		// <> Å¸ÀÔ ÁöÁ¤ÇÏÁö¾ÊÀ¸¸é Object°¡ ÀÚµ¿À¸·Î µé¾î°¨.
+		// ë…¸ë€ì¤„ ë‚˜ì˜¤ëŠ” ì´ìœ  - <> ì œë„ˆë¦­
+		// <> íƒ€ì… ì§€ì •í•˜ì§€ì•Šìœ¼ë©´ Objectê°€ ìë™ìœ¼ë¡œ ë“¤ì–´ê°.
 		ArrayList<String> list = new ArrayList();
 		
 		list.add("aaa");

@@ -11,7 +11,7 @@ public class VIPCustomer extends Customer {
 //		customerGrade = "VIP"; 
 //		bonusRatio = 0.05; 
 //		salesRatio = 0.1; 
-//		System.out.println("VIPCustomer() »ı¼ºÀÚ È£Ãâ"); 
+//		System.out.println("VIPCustomer() ìƒì„±ì í˜¸ì¶œ"); 
 //	}
 	
 	public VIPCustomer(int customerID, String customerName) {
@@ -21,12 +21,12 @@ public class VIPCustomer extends Customer {
 		customerGrade = "VIP"; 
 		bonusRatio = 0.05; 
 		salesRatio = 0.1; 
-//		System.out.println("VIPCustomer(int, String) »ı¼ºÀÚ È£Ãâ"); 
+//		System.out.println("VIPCustomer(int, String) ìƒì„±ì í˜¸ì¶œ"); 
 	}
 
 
 	@Override
-	public int calcPrice(int price) { // »óÀÇ Å¬·¡½ºÀÇ ¼±¾ğºÎ¿Í ´Ù¸£¸é ¿À·ù. ex) ÆÄ¶ó¹ÌÅÍ Å¸ÀÔ ´Ù¸£¸é¾ÈµÊ.
+	public int calcPrice(int price) { // ìƒì˜ í´ë˜ìŠ¤ì˜ ì„ ì–¸ë¶€ì™€ ë‹¤ë¥´ë©´ ì˜¤ë¥˜. ex) íŒŒë¼ë¯¸í„° íƒ€ì… ë‹¤ë¥´ë©´ì•ˆë¨.
 		bonusPoint += price * bonusRatio;
 		return price - (int)(price * salesRatio);	 
 	}

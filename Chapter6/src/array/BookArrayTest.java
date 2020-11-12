@@ -4,15 +4,15 @@ public class BookArrayTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Ã¥ÀÌ ´Ù¼¸ ±ÇÀÌ »ı±ä°Ç ¾Æ´Ï´Ù.
-		// ´Ù¼¸±ÇÀ» ¸¸µé·Á¸é ÀÏÀÏÀÌ ÀÎ½ºÅÏ½º¸¦ »ı¼º ÈÄ ÃÊ±âÈ­µµ ÇØÁà¾ßÇÑ´Ù.
+		// ì±…ì´ ë‹¤ì„¯ ê¶Œì´ ìƒê¸´ê±´ ì•„ë‹ˆë‹¤.
+		// ë‹¤ì„¯ê¶Œì„ ë§Œë“¤ë ¤ë©´ ì¼ì¼ì´ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„± í›„ ì´ˆê¸°í™”ë„ í•´ì¤˜ì•¼í•œë‹¤.
 		Book[] library = new Book[5];
 		
-		library[0] = new Book("ÅÂ¹é»ê¸Æ1", "Á¶Á¤·¡");
-		library[1] = new Book("ÅÂ¹é»ê¸Æ2", "Á¶Á¤·¡");
-		library[2] = new Book("ÅÂ¹é»ê¸Æ3", "Á¶Á¤·¡");
-		library[3] = new Book("ÅÂ¹é»ê¸Æ4", "Á¶Á¤·¡");
-		library[4] = new Book("ÅÂ¹é»ê¸Æ5", "Á¶Á¤·¡");
+		library[0] = new Book("íƒœë°±ì‚°ë§¥1", "ì¡°ì •ë˜");
+		library[1] = new Book("íƒœë°±ì‚°ë§¥2", "ì¡°ì •ë˜");
+		library[2] = new Book("íƒœë°±ì‚°ë§¥3", "ì¡°ì •ë˜");
+		library[3] = new Book("íƒœë°±ì‚°ë§¥4", "ì¡°ì •ë˜");
+		library[4] = new Book("íƒœë°±ì‚°ë§¥5", "ì¡°ì •ë˜");
 		for(int i = 0; i < library.length; i++) {
 			System.out.println(library[i]);
 			library[i].showBookInfo();

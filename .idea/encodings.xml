@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Chapter5/src/hiding/MyDate.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/reference/Student.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/reference/StudentRef.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/reference/StudentTest.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/reference/StudentTest2.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/staticex/Company.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/staticex/CompanyTest.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/staticex/Student.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter5/src/thisex/Person.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter6/src/array/ArrayListTest.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter6/src/array/BookArrayTest.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter6/src/array/ObjectTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter6/src/array/ObjectTest2.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter6/src/array/Student.java" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/Chapter7/src/polymorphism/AnimalTest.java" charset="EUC-KR" />
+    <file url="PROJECT" charset="EUC-KR" />
+  </component>
+</project>

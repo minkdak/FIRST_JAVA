@@ -16,6 +16,6 @@ public class Subway {
 	}
 	
 	public void showSubwayInfo() {
-		System.out.println(lineNumber + " ÁöÇÏÃ¶ÀÇ ½Â°´Àº " + passengerCount + "¸í ÀÌ°í, ¼öÀÔÀº " + money +"ÀÔ´Ï´Ù.");
+		System.out.println(lineNumber + " ì§€í•˜ì² ì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª… ì´ê³ , ìˆ˜ì…ì€ " + money +"ì…ë‹ˆë‹¤.");
 	}
 }

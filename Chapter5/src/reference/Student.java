@@ -4,12 +4,12 @@ public class Student {
 	int studentID;
 	String studentName;
 	
-	// StringÀÌ ¾Æ´Ñ ´Ù¸¥ ÂüÁ¶ º¯¼öµéÀº ¹Ù·Î °ªÀ»  assign ÇÒ¼ö ¾ø´Ù.
+	// Stringì´ ì•„ë‹Œ ë‹¤ë¥¸ ì°¸ì¡° ë³€ìˆ˜ë“¤ì€ ë°”ë¡œ ê°’ì„  assign í• ìˆ˜ ì—†ë‹¤.
 	Subject korea;
 	Subject math;
 	
 	public Student(int id, String name) {
-		// ÁÖ·Î »ı¼ºÀÚ¿¡¼­ ÀÎ½ºÅÏ½º »ı¼º
+		// ì£¼ë¡œ ìƒì„±ìì—ì„œ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 		studentID = id;
 		studentName = name;
 		
@@ -29,6 +29,6 @@ public class Student {
 	
 	public void showStudentScore() {
 		int total = korea.score + math.score;
-		System.out.println(studentName+" ÇĞ»ıÀÇ ÃÑÁ¡Àº "+ total + "Á¡ÀÔ´Ï´Ù.");
+		System.out.println(studentName+" í•™ìƒì˜ ì´ì ì€ "+ total + "ì ì…ë‹ˆë‹¤.");
 	}
 }

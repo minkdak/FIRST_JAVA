@@ -15,7 +15,7 @@ public class Student {
 	public Student(int id, String name) {
 		studentID = id;
 		studentName = name;
-		address = "ÁÖ¼Ò¾øÀ½";
+		address = "ì£¼ì†Œì—†ìŒ";
 		serialNum++;
 		studentID = serialNum;
 	}
@@ -35,9 +35,9 @@ public class Student {
 
 	public static int getSerialNum() {
 		int i = 0;
-//		studentName = "Lee"; // static ¸Ş¼­µå ³»¿¡¼­´Â ÀÎ½ºÅÏÆ® º¯¼ö¸¦ »ç¿ë ÇÒ ¼ö´Â ¾ø´Ù.
-		// ÀÎ½ºÅÏ½º º¯¼ö´Â new·Î ÀÎ½ºÅÏ½º¸¦ »ı¼ºÇØ¾ß »ı±â´Â º¯¼öÀÌ´Ù.
-		// static º¯¼ö´Â ÀÎ½ºÅÏ½º¸¦ »ı¼ºÇÏÁö ¾Ê°í »ç¿ëÇÒ ¼ö ÀÖ´Â º¯¼öÀÌ´Ù.
+//		studentName = "Lee"; // static ë©”ì„œë“œ ë‚´ì—ì„œëŠ” ì¸ìŠ¤í„´íŠ¸ ë³€ìˆ˜ë¥¼ ì‚¬ìš© í•  ìˆ˜ëŠ” ì—†ë‹¤.
+		// ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ëŠ” newë¡œ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•´ì•¼ ìƒê¸°ëŠ” ë³€ìˆ˜ì´ë‹¤.
+		// static ë³€ìˆ˜ëŠ” ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•˜ì§€ ì•Šê³  ì‚¬ìš©í•  ìˆ˜ ìˆëŠ” ë³€ìˆ˜ì´ë‹¤.
 		return serialNum;
 	}
 

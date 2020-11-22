@@ -30,7 +30,7 @@ public class StudentRef {
 	
 	public void showStudentScore() {
 		int total = koreaSubject.subjectScore + mathSubject.subjectScore;
-		System.out.println(studentName+" ÇĞ»ıÀÇ ÃÑÁ¡Àº "+ total + "Á¡ÀÔ´Ï´Ù.");
+		System.out.println(studentName+" í•™ìƒì˜ ì´ì ì€ "+ total + "ì ì…ë‹ˆë‹¤.");
 	}
 	
 	

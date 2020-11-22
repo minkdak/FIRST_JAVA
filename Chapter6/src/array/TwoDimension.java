@@ -4,8 +4,8 @@ public class TwoDimension {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Çà,¿­
-		// ¸Ş¸ğ¸®¿¡´Â ÀÏÂ÷¿øÀ¸·Î ÀûÀç
+		// í–‰,ì—´
+		// ë©”ëª¨ë¦¬ì—ëŠ” ì¼ì°¨ì›ìœ¼ë¡œ ì ì¬
 		int[][] arr = {{1,2,3}, {4,5,6,7}};
 		
 		for(int i = 0; i < arr.length;i++) {

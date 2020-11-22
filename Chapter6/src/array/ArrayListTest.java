@@ -4,25 +4,25 @@ import java.util.ArrayList;
 
 public class ArrayListTest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// ³ë¶õÁÙ ³ª¿À´Â ÀÌÀ¯ - <> Á¦³Ê¸¯
-		// <> Å¸ÀÔ ÁöÁ¤ÇÏÁö¾ÊÀ¸¸é Object°¡ ÀÚµ¿À¸·Î µé¾î°¨.
-		ArrayList<String> list = new ArrayList();
-		
-		list.add("aaa");
-		list.add("bbb");
-		list.add("ccc");
-		
-		for(int i = 0; i < list.size(); i++) {
-			String str= list.get(i);
-			System.out.println(str); 
-		}
-		
-		for(String str: list) {
-			System.out.println(str);
-		}
-		
-	}
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        // ë…¸ë€ì¤„ ë‚˜ì˜¤ëŠ” ì´ìœ  - <> ì œë„ˆë¦­
+        // <> íƒ€ì… ì§€ì •í•˜ì§€ì•Šìœ¼ë©´ Objectê°€ ìë™ìœ¼ë¡œ ë“¤ì–´ê°.
+        ArrayList<String> list = new ArrayList();
+
+        list.add("aaa");
+        list.add("bbb");
+        list.add("ccc");
+
+        for(int i = 0; i < list.size(); i++) {
+            String str= list.get(i);
+            System.out.println(str);
+        }
+
+        for(String str: list) {
+            System.out.println(str);
+        }
+
+    }
 
 }

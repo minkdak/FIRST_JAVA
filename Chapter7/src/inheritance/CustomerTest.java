@@ -6,19 +6,19 @@ public class CustomerTest {
 		// TODO Auto-generated method stub
 		
 		Customer customerLee = new Customer(); 
-		customerLee.setCustomerName("ÀÌ¼ø½Å");
+		customerLee.setCustomerName("ì´ìˆœì‹ ");
 		customerLee.setCustomerID(10010); customerLee.bonusPoint = 1000;
 		System.out.println(customerLee.showCustomerInfo());
 		
-		VIPCustomer customerKim = new VIPCustomer(10020, "±èÀ¯½Å");
-//		Customer customerKim = new VIPCustomer(10020, "±èÀ¯½Å");
-//		customerKim.setCustomerName("±èÀ¯½Å");
+		VIPCustomer customerKim = new VIPCustomer(10020, "ê¹€ìœ ì‹ ");
+//		Customer customerKim = new VIPCustomer(10020, "ê¹€ìœ ì‹ ");
+//		customerKim.setCustomerName("ê¹€ìœ ì‹ ");
 //		customerKim.setCustomerID(10020);
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());
 		
-		//ÇÏÀ§ Å¬·¡½ºÀÇ Å¸ÀÔÀº »óÀ§Å¬·¡½ºÀÇ º¯¼ö Å¸ÀÔÀ¸·Î ÀÚµ¿ Çüº¯È¯ÀÌµÈ´Ù.(¾÷Ä³½ºÆÃ)
-		// ¸Ş¸ğ¸®´Â ÇÏÀ§ Å¬·¡½ºÀÇ ÇÁ·ÎÆÛÆ¼±îÁö ¸¸µé¾îÁ³Áö¸¸ Å¸ÀÔÀÌ »óÀ§ Å¬·¡½º ÀÌ±â ¶§¹®¿¡ »óÀ§ Å¬·¡½ºÀÇ ¸Ş¸ğ¸®¸¸ ÂüÁ¶ÇÒ¼ö ÀÖ´Ù.
+		//í•˜ìœ„ í´ë˜ìŠ¤ì˜ íƒ€ì…ì€ ìƒìœ„í´ë˜ìŠ¤ì˜ ë³€ìˆ˜ íƒ€ì…ìœ¼ë¡œ ìë™ í˜•ë³€í™˜ì´ëœë‹¤.(ì—…ìºìŠ¤íŒ…)
+		// ë©”ëª¨ë¦¬ëŠ” í•˜ìœ„ í´ë˜ìŠ¤ì˜ í”„ë¡œí¼í‹°ê¹Œì§€ ë§Œë“¤ì–´ì¡Œì§€ë§Œ íƒ€ì…ì´ ìƒìœ„ í´ë˜ìŠ¤ ì´ê¸° ë•Œë¬¸ì— ìƒìœ„ í´ë˜ìŠ¤ì˜ ë©”ëª¨ë¦¬ë§Œ ì°¸ì¡°í• ìˆ˜ ìˆë‹¤.
 		customerLee = customerKim; 
 		
 //		customerKim.

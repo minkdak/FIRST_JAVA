@@ -2,13 +2,13 @@ package staticex;
 
 public class Company {
 	
-	// À¯ÀÏÇÑ ÀÎ½ºÅÏ½º »ı¼º
+	// ìœ ì¼í•œ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 	private static Company instance = new Company();
 	
-	// ¿ÜºÎ¿¡¼­ »ç¿ëÇÒ ¼ö ¾øÀ½
+	// ì™¸ë¶€ì—ì„œ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ
 	private Company() {}
 	
-	// ¿ÜºÎ¿¡¼­ ¾²°ÔÇÏ·Á¸é..
+	// ì™¸ë¶€ì—ì„œ ì“°ê²Œí•˜ë ¤ë©´..
 	public static Company getInstance() {
 		if (instance == null) {
 			instance = new Company();

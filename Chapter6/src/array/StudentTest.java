@@ -5,13 +5,13 @@ public class StudentTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Student studentLee = new Student(1001, "Lee");
-		studentLee.addSubjcet("±¹¾î", 100);
-		studentLee.addSubjcet("¼öÇĞ", 90);
+		studentLee.addSubjcet("êµ­ì–´", 100);
+		studentLee.addSubjcet("ìˆ˜í•™", 90);
 		
 		Student studentKim= new Student(1002, "Kim");
-		studentKim.addSubjcet("±¹¾î", 100);
-		studentKim.addSubjcet("¼öÇĞ", 90);
-		studentKim.addSubjcet("¿µ¾î", 80);
+		studentKim.addSubjcet("êµ­ì–´", 100);
+		studentKim.addSubjcet("ìˆ˜í•™", 90);
+		studentKim.addSubjcet("ì˜ì–´", 80);
 		
 		studentLee.showStudentInfo();
 		System.out.println("===============================");

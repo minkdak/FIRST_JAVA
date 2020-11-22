@@ -12,7 +12,7 @@ public class CompanyTest {
 		System.out.println(company1);
 		System.out.println(company2);
 		
-		// Calendar calendar = new Calendar(); // »ı¼º¾ÈµÊ 
+		// Calendar calendar = new Calendar(); // ìƒì„±ì•ˆë¨ 
 		Calendar calendar = Calendar.getInstance();
 	}
 

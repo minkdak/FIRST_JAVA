@@ -6,26 +6,26 @@ public class ObjectTest2 {
 		Book[] library = new Book[5];
 		Book[] copyLibrary = new Book[5];
 		
-		library[0] = new Book("ÅÂ¹é»ê¸Æ1", "Á¶Á¤·¡");
-		library[1] = new Book("ÅÂ¹é»ê¸Æ2", "Á¶Á¤·¡");
-		library[2] = new Book("ÅÂ¹é»ê¸Æ3", "Á¶Á¤·¡");
-		library[3] = new Book("ÅÂ¹é»ê¸Æ4", "Á¶Á¤·¡");
-		library[4] = new Book("ÅÂ¹é»ê¸Æ5", "Á¶Á¤·¡");
+		library[0] = new Book("íƒœë°±ì‚°ë§¥1", "ì¡°ì •ë˜");
+		library[1] = new Book("íƒœë°±ì‚°ë§¥2", "ì¡°ì •ë˜");
+		library[2] = new Book("íƒœë°±ì‚°ë§¥3", "ì¡°ì •ë˜");
+		library[3] = new Book("íƒœë°±ì‚°ë§¥4", "ì¡°ì •ë˜");
+		library[4] = new Book("íƒœë°±ì‚°ë§¥5", "ì¡°ì •ë˜");
 		
 		copyLibrary[0] = new Book();
 		copyLibrary[1] = new Book();
 		copyLibrary[2] = new Book();
 		copyLibrary[3] = new Book();
 		copyLibrary[4] = new Book();
-		// ±íÀº º¹»ç
+		// ê¹Šì€ ë³µì‚¬
 		
 		for(int i = 0; i < library.length; i++) {
 			copyLibrary[i].setTitle(library[i].getTitle());
 			copyLibrary[i].setAuthor(library[i].getAuthor());
 		}
 		
-		library[0].setTitle("³ª¸ñ");
-		library[0].setAuthor("¹Ú¿Ï¼­");
+		library[0].setTitle("ë‚˜ëª©");
+		library[0].setAuthor("ë°•ì™„ì„œ");
 		
 		for(Book book: library) {
 			book.showBookInfo();
@@ -33,7 +33,7 @@ public class ObjectTest2 {
 		
 		
 		System.out.println("=================");
-		// ±íÀºº¹»ç¶ó ¿øº»ÀÇ °ªÀ» ¹Ù²î¾îµµ º¹»çº»ÀÇ °ªÀÌ ¹Ù²îÁö¾ÊÀ½
+		// ê¹Šì€ë³µì‚¬ë¼ ì›ë³¸ì˜ ê°’ì„ ë°”ë€Œì–´ë„ ë³µì‚¬ë³¸ì˜ ê°’ì´ ë°”ë€Œì§€ì•ŠìŒ
 		for(Book book: copyLibrary) {
 			book.showBookInfo();
 		}

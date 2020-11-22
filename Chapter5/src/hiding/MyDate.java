@@ -2,7 +2,7 @@ package hiding;
 
 public class MyDate {
 
-	// ÆĞÅ°Áö°¡ ´Ù¸£¸é public ¼±¾ğ ÇØ¾ßÇÔ.
+	// íŒ¨í‚¤ì§€ê°€ ë‹¤ë¥´ë©´ public ì„ ì–¸ í•´ì•¼í•¨.
 	private int day;
 	private int year;
 	private int month;
@@ -16,7 +16,7 @@ public class MyDate {
 //		this.day = day;
 //		
 //	}
-	// setÀº ¸øÇÏ°í get ¸¸ÇÏ´Â °æ¿ì read-only
+	// setì€ ëª»í•˜ê³  get ë§Œí•˜ëŠ” ê²½ìš° read-only
 	public int getDay() {
 		return day;
 	}
@@ -44,9 +44,9 @@ public class MyDate {
 
 	public void showDate() {
 		if (isValid) {
-			System.out.println( year + "³â " + month + "¿ù " + day + "ÀÏ");	
+			System.out.println( year + "ë…„ " + month + "ì›” " + day + "ì¼");	
 		} else {
-			System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ³¯Â¥ ÀÔ´Ï´Ù.");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ë‚ ì§œ ì…ë‹ˆë‹¤.");
 		}
 		
 	}

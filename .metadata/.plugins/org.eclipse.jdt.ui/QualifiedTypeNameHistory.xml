@@ -7,18 +7,4 @@
     <fullyQualifiedTypeName name="reference.Student"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dv.ValidatedInfo"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
-    <fullyQualifiedTypeName name="polymorphism.Human"/>
-    <fullyQualifiedTypeName name="polymorphism.eagle"/>
-    <fullyQualifiedTypeName name="polymorphism.AnimalTest"/>
-    <fullyQualifiedTypeName name="polymorphism.Customer"/>
-    <fullyQualifiedTypeName name="polymorphism.GoldCustomer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="witharraylist.Customer"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="apstractex.DeskTop"/>
-    <fullyQualifiedTypeName name="apstractex.MyNoteBook"/>
-    <fullyQualifiedTypeName name="apstractex.NoteBook"/>
-    <fullyQualifiedTypeName name="template.AICar"/>
-    <fullyQualifiedTypeName name="template.ManualCar"/>
 </qualifiedTypeNameHistroy>

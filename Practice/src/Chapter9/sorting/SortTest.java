@@ -1,8 +1,6 @@
 package Chapter9.sorting;
 
-import java.io.IOException;import scheduler.LeastJob;
-import scheduler.PriorityAllocation;
-import scheduler.RoundRobin;
+import java.io.IOException;
 
 public class SortTest {
 
@@ -15,20 +13,28 @@ public class SortTest {
 		
 		int ch = System.in.read();
 		
-		Sort sort;
+		Sort sort = null;
 		
-		if (ch == 'R' || ch == 'r') {
-			scheduler = new RoundRobin();
+		if (ch == 'B' || ch == 'b') {
+			sort = new BubbleSort();
 		}
-		else if (ch == 'L' || ch == 'l') {
-			scheduler = new LeastJob();
+		else if (ch == 'H' || ch == 'h') {
+			sort= new HeapSort();
 		}
-		else if (ch == 'P' || ch == 'p') {
-			scheduler = new PriorityAllocation();
+		else if (ch == 'Q' || ch == 'q') {
+			sort = new QuickSort();
 		}
 		else {
 			System.out.println("지원되지 않는 기능입니다.");
 		}
+		
+		
+		int[] arr = new int[10];
+		sort.ascending(arr);
+		sort.descending(arr);
+		sort.description();
+		
+		
 		
 	}
 

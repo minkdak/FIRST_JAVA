@@ -1,6 +1,6 @@
 package Chapter9.sorting;
 
-public class HeaSort implements Sort{
+public class HeapSort implements Sort{
 
 	@Override
 	public void ascending(int[] arr) {
